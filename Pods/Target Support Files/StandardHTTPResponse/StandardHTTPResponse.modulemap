@@ -1,0 +1,6 @@
+framework module StandardHTTPResponse {
+  umbrella header "StandardHTTPResponse-umbrella.h"
+
+  export *
+  module * { export * }
+}

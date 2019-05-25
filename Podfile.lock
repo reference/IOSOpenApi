@@ -1,0 +1,215 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BDToolKit (1.3.1):
+    - BDToolKit/BDButton (= 1.3.1)
+    - BDToolKit/BDCollectionViewCell (= 1.3.1)
+    - BDToolKit/BDCollectionViewController (= 1.3.1)
+    - BDToolKit/BDImageView (= 1.3.1)
+    - BDToolKit/BDLabel (= 1.3.1)
+    - BDToolKit/BDSegmentView (= 1.3.1)
+    - BDToolKit/BDTableViewCell (= 1.3.1)
+    - BDToolKit/BDTableViewController (= 1.3.1)
+    - BDToolKit/BDView (= 1.3.1)
+    - BDToolKit/BDViewController (= 1.3.1)
+    - "BDToolKit/NSArray+BDUIKIT (= 1.3.1)"
+    - "BDToolKit/NSString+BD (= 1.3.1)"
+    - "BDToolKit/NSURLProtocol+WKWebVIew (= 1.3.1)"
+    - "BDToolKit/UILabel+BD (= 1.3.1)"
+    - "BDToolKit/UITextField+BD (= 1.3.1)"
+    - "BDToolKit/UITextView+BD (= 1.3.1)"
+    - "BDToolKit/UIView+BD (= 1.3.1)"
+    - "BDToolKit/UIView+BDCDS (= 1.3.1)"
+  - BDToolKit/BDButton (1.3.1)
+  - BDToolKit/BDCollectionViewCell (1.3.1)
+  - BDToolKit/BDCollectionViewController (1.3.1)
+  - BDToolKit/BDImageView (1.3.1)
+  - BDToolKit/BDLabel (1.3.1)
+  - BDToolKit/BDSegmentView (1.3.1)
+  - BDToolKit/BDTableViewCell (1.3.1)
+  - BDToolKit/BDTableViewController (1.3.1)
+  - BDToolKit/BDView (1.3.1)
+  - BDToolKit/BDViewController (1.3.1)
+  - "BDToolKit/NSArray+BDUIKIT (1.3.1)"
+  - "BDToolKit/NSString+BD (1.3.1)"
+  - "BDToolKit/NSURLProtocol+WKWebVIew (1.3.1)"
+  - "BDToolKit/UILabel+BD (1.3.1)"
+  - "BDToolKit/UITextField+BD (1.3.1)"
+  - "BDToolKit/UITextView+BD (1.3.1)"
+  - "BDToolKit/UIView+BD (1.3.1)"
+  - "BDToolKit/UIView+BDCDS (1.3.1)"
+  - StandardHTTPResponse (0.0.1)
+  - StandardPageSize (0.0.1)
+  - YYModel (1.0.4)
+  - ZXToolbox (1.9.6):
+    - ZXToolbox/Base64Encoding (= 1.9.6)
+    - ZXToolbox/JSONObject (= 1.9.6)
+    - "ZXToolbox/NSArray+ZXToolbox (= 1.9.6)"
+    - "ZXToolbox/NSDate+ZXToolbox (= 1.9.6)"
+    - "ZXToolbox/NSFileManager+ZXToolbox (= 1.9.6)"
+    - "ZXToolbox/NSNumberFormatter+ZXToolbox (= 1.9.6)"
+    - "ZXToolbox/NSObject+ZXToolbox (= 1.9.6)"
+    - "ZXToolbox/NSString+NumberValue (= 1.9.6)"
+    - "ZXToolbox/NSString+Pinyin (= 1.9.6)"
+    - "ZXToolbox/NSString+Unicode (= 1.9.6)"
+    - "ZXToolbox/NSString+URLEncoding (= 1.9.6)"
+    - "ZXToolbox/UIApplication+ZXToolbox (= 1.9.6)"
+    - ZXToolbox/UIApplicationIdleTimer (= 1.9.6)
+    - "ZXToolbox/UIButton+ZXToolbox (= 1.9.6)"
+    - "ZXToolbox/UIColor+ZXToolbox (= 1.9.6)"
+    - "ZXToolbox/UIImage+ZXToolbox (= 1.9.6)"
+    - ZXToolbox/UINetworkActivityIndicator (= 1.9.6)
+    - "ZXToolbox/UIScreen+ZXToolbox (= 1.9.6)"
+    - "ZXToolbox/UIScrollView+ZXToolbox (= 1.9.6)"
+    - "ZXToolbox/UITableViewCell+Separator (= 1.9.6)"
+    - "ZXToolbox/UITextField+ZXToolbox (= 1.9.6)"
+    - "ZXToolbox/UIView+ZXToolbox (= 1.9.6)"
+    - "ZXToolbox/UIViewController+ZXToolbox (= 1.9.6)"
+    - ZXToolbox/ZXAlertView (= 1.9.6)
+    - ZXToolbox/ZXAudioDevice (= 1.9.6)
+    - ZXToolbox/ZXAuthorizationHelper (= 1.9.6)
+    - ZXToolbox/ZXBadgeLabel (= 1.9.6)
+    - ZXToolbox/ZXBrightnessView (= 1.9.6)
+    - ZXToolbox/ZXCircularProgressView (= 1.9.6)
+    - ZXToolbox/ZXCommonCrypto (= 1.9.6)
+    - ZXToolbox/ZXDownloadManager (= 1.9.6)
+    - ZXToolbox/ZXDrawingView (= 1.9.6)
+    - ZXToolbox/ZXHaloLabel (= 1.9.6)
+    - ZXToolbox/ZXHTTPClient (= 1.9.6)
+    - ZXToolbox/ZXImageView (= 1.9.6)
+    - ZXToolbox/ZXLineChartView (= 1.9.6)
+    - ZXToolbox/ZXLocationManager (= 1.9.6)
+    - ZXToolbox/ZXNavigationController (= 1.9.6)
+    - ZXToolbox/ZXNetworkTrafficMonitor (= 1.9.6)
+    - ZXToolbox/ZXPageIndicatorView (= 1.9.6)
+    - ZXToolbox/ZXPageView (= 1.9.6)
+    - ZXToolbox/ZXPhotoLibrary (= 1.9.6)
+    - ZXToolbox/ZXPlayerViewController (= 1.9.6)
+    - ZXToolbox/ZXPopoverView (= 1.9.6)
+    - ZXToolbox/ZXPopoverWindow (= 1.9.6)
+    - ZXToolbox/ZXQRCodeGenerator (= 1.9.6)
+    - ZXToolbox/ZXQRCodeReader (= 1.9.6)
+    - ZXToolbox/ZXQRCodeScanner (= 1.9.6)
+    - ZXToolbox/ZXRefreshView (= 1.9.6)
+    - ZXToolbox/ZXScriptMessageHandler (= 1.9.6)
+    - ZXToolbox/ZXScrollLabel (= 1.9.6)
+    - ZXToolbox/ZXTabBar (= 1.9.6)
+    - ZXToolbox/ZXTabBarController (= 1.9.6)
+    - ZXToolbox/ZXTagView (= 1.9.6)
+    - ZXToolbox/ZXToastView (= 1.9.6)
+    - "ZXToolbox/ZXToolbox+Macros (= 1.9.6)"
+    - ZXToolbox/ZXURLProtocol (= 1.9.6)
+    - ZXToolbox/ZXURLSession (= 1.9.6)
+  - ZXToolbox/Base64Encoding (1.9.6)
+  - ZXToolbox/JSONObject (1.9.6)
+  - "ZXToolbox/NSArray+ZXToolbox (1.9.6)"
+  - "ZXToolbox/NSDate+ZXToolbox (1.9.6)"
+  - "ZXToolbox/NSFileManager+ZXToolbox (1.9.6)"
+  - "ZXToolbox/NSNumberFormatter+ZXToolbox (1.9.6)"
+  - "ZXToolbox/NSObject+ZXToolbox (1.9.6)"
+  - "ZXToolbox/NSString+NumberValue (1.9.6)"
+  - "ZXToolbox/NSString+Pinyin (1.9.6)"
+  - "ZXToolbox/NSString+Unicode (1.9.6)":
+    - "ZXToolbox/NSObject+ZXToolbox"
+  - "ZXToolbox/NSString+URLEncoding (1.9.6)"
+  - "ZXToolbox/UIApplication+ZXToolbox (1.9.6)"
+  - ZXToolbox/UIApplicationIdleTimer (1.9.6)
+  - "ZXToolbox/UIButton+ZXToolbox (1.9.6)"
+  - "ZXToolbox/UIColor+ZXToolbox (1.9.6)"
+  - "ZXToolbox/UIImage+ZXToolbox (1.9.6)"
+  - ZXToolbox/UINetworkActivityIndicator (1.9.6)
+  - "ZXToolbox/UIScreen+ZXToolbox (1.9.6)"
+  - "ZXToolbox/UIScrollView+ZXToolbox (1.9.6)"
+  - "ZXToolbox/UITableViewCell+Separator (1.9.6)"
+  - "ZXToolbox/UITextField+ZXToolbox (1.9.6)":
+    - "ZXToolbox/NSObject+ZXToolbox"
+  - "ZXToolbox/UIView+ZXToolbox (1.9.6)":
+    - "ZXToolbox/NSObject+ZXToolbox"
+  - "ZXToolbox/UIViewController+ZXToolbox (1.9.6)"
+  - ZXToolbox/ZXAlertView (1.9.6)
+  - ZXToolbox/ZXAudioDevice (1.9.6)
+  - ZXToolbox/ZXAuthorizationHelper (1.9.6)
+  - ZXToolbox/ZXBadgeLabel (1.9.6)
+  - ZXToolbox/ZXBrightnessView (1.9.6):
+    - "ZXToolbox/UIColor+ZXToolbox"
+  - ZXToolbox/ZXCircularProgressView (1.9.6)
+  - ZXToolbox/ZXCommonCrypto (1.9.6)
+  - ZXToolbox/ZXDownloadManager (1.9.6):
+    - ZXToolbox/ZXCommonCrypto
+  - ZXToolbox/ZXDrawingView (1.9.6)
+  - ZXToolbox/ZXHaloLabel (1.9.6)
+  - ZXToolbox/ZXHTTPClient (1.9.6)
+  - ZXToolbox/ZXImageView (1.9.6):
+    - ZXToolbox/ZXCommonCrypto
+    - ZXToolbox/ZXURLSession
+  - ZXToolbox/ZXLineChartView (1.9.6)
+  - ZXToolbox/ZXLocationManager (1.9.6)
+  - ZXToolbox/ZXNavigationController (1.9.6)
+  - ZXToolbox/ZXNetworkTrafficMonitor (1.9.6)
+  - ZXToolbox/ZXPageIndicatorView (1.9.6)
+  - ZXToolbox/ZXPageView (1.9.6):
+    - "ZXToolbox/NSObject+ZXToolbox"
+  - ZXToolbox/ZXPhotoLibrary (1.9.6)
+  - ZXToolbox/ZXPlayerViewController (1.9.6):
+    - "ZXToolbox/NSObject+ZXToolbox"
+    - "ZXToolbox/UIViewController+ZXToolbox"
+    - ZXToolbox/ZXBrightnessView
+  - ZXToolbox/ZXPopoverView (1.9.6)
+  - ZXToolbox/ZXPopoverWindow (1.9.6)
+  - ZXToolbox/ZXQRCodeGenerator (1.9.6)
+  - ZXToolbox/ZXQRCodeReader (1.9.6)
+  - ZXToolbox/ZXQRCodeScanner (1.9.6)
+  - ZXToolbox/ZXRefreshView (1.9.6):
+    - ZXToolbox/ZXCircularProgressView
+  - ZXToolbox/ZXScriptMessageHandler (1.9.6)
+  - ZXToolbox/ZXScrollLabel (1.9.6)
+  - ZXToolbox/ZXTabBar (1.9.6)
+  - ZXToolbox/ZXTabBarController (1.9.6)
+  - ZXToolbox/ZXTagView (1.9.6)
+  - ZXToolbox/ZXToastView (1.9.6)
+  - "ZXToolbox/ZXToolbox+Macros (1.9.6)":
+    - "ZXToolbox/NSDate+ZXToolbox"
+  - ZXToolbox/ZXURLProtocol (1.9.6)
+  - ZXToolbox/ZXURLSession (1.9.6)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BDToolKit
+  - StandardHTTPResponse
+  - StandardPageSize
+  - YYModel
+  - ZXToolbox
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BDToolKit
+    - StandardHTTPResponse
+    - StandardPageSize
+    - YYModel
+    - ZXToolbox
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BDToolKit: 83cb90107ff4de50bda9c8946b3391e430982f71
+  StandardHTTPResponse: 63567c028c163f28d0e08c6147247df377404713
+  StandardPageSize: f79d7b8116415631b8836e7762657cadbd4448b2
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZXToolbox: 3a9bf4c7efc99ad501ab1960051504bfa9260d89
+
+PODFILE CHECKSUM: 5011ef673d10e43e0efbb700d4a617849ac65c03
+
+COCOAPODS: 1.6.1
