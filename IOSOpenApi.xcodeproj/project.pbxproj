@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		50ED654752037D5A0772FD87 /* Pods_IOSOpenApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB2955C05F09419507CFDF7 /* Pods_IOSOpenApi.framework */; };
 		8F9785DD2299141100F3DBC8 /* IOSOpenApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9785DB2299141100F3DBC8 /* IOSOpenApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F9785EB229916BF00F3DBC8 /* HTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9785E4229916BF00F3DBC8 /* HTTP.h */; };
-		8F9785ED229916BF00F3DBC8 /* NSError+LocalizedDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9785E6229916BF00F3DBC8 /* NSError+LocalizedDescription.h */; };
-		8F9785EE229916BF00F3DBC8 /* NSError+LocalizedDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9785E7229916BF00F3DBC8 /* NSError+LocalizedDescription.m */; };
-		8F9785F0229916BF00F3DBC8 /* HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9785E9229916BF00F3DBC8 /* HTTP.m */; };
+		8F9785EB229916BF00F3DBC8 /* OAHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9785E4229916BF00F3DBC8 /* OAHTTP.h */; };
+		8F9785F0229916BF00F3DBC8 /* OAHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9785E9229916BF00F3DBC8 /* OAHTTP.m */; };
 		8F9785F3229919A100F3DBC8 /* OAGetRecordsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9785F1229919A100F3DBC8 /* OAGetRecordsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F9785F4229919A100F3DBC8 /* OAGetRecordsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9785F2229919A100F3DBC8 /* OAGetRecordsModel.m */; };
 /* End PBXBuildFile section */
@@ -23,10 +21,8 @@
 		8F9785D82299141100F3DBC8 /* IOSOpenApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IOSOpenApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9785DB2299141100F3DBC8 /* IOSOpenApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSOpenApi.h; sourceTree = "<group>"; };
 		8F9785DC2299141100F3DBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F9785E4229916BF00F3DBC8 /* HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTP.h; sourceTree = "<group>"; };
-		8F9785E6229916BF00F3DBC8 /* NSError+LocalizedDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+LocalizedDescription.h"; sourceTree = "<group>"; };
-		8F9785E7229916BF00F3DBC8 /* NSError+LocalizedDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+LocalizedDescription.m"; sourceTree = "<group>"; };
-		8F9785E9229916BF00F3DBC8 /* HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTP.m; sourceTree = "<group>"; };
+		8F9785E4229916BF00F3DBC8 /* OAHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHTTP.h; sourceTree = "<group>"; };
+		8F9785E9229916BF00F3DBC8 /* OAHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHTTP.m; sourceTree = "<group>"; };
 		8F9785F1229919A100F3DBC8 /* OAGetRecordsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAGetRecordsModel.h; sourceTree = "<group>"; };
 		8F9785F2229919A100F3DBC8 /* OAGetRecordsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAGetRecordsModel.m; sourceTree = "<group>"; };
 		DCB2955C05F09419507CFDF7 /* Pods_IOSOpenApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSOpenApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,10 +89,8 @@
 		8F9785E3229916BF00F3DBC8 /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
-				8F9785E4229916BF00F3DBC8 /* HTTP.h */,
-				8F9785E9229916BF00F3DBC8 /* HTTP.m */,
-				8F9785E6229916BF00F3DBC8 /* NSError+LocalizedDescription.h */,
-				8F9785E7229916BF00F3DBC8 /* NSError+LocalizedDescription.m */,
+				8F9785E4229916BF00F3DBC8 /* OAHTTP.h */,
+				8F9785E9229916BF00F3DBC8 /* OAHTTP.m */,
 			);
 			path = HTTP;
 			sourceTree = SOURCE_ROOT;
@@ -118,8 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F9785F3229919A100F3DBC8 /* OAGetRecordsModel.h in Headers */,
-				8F9785EB229916BF00F3DBC8 /* HTTP.h in Headers */,
-				8F9785ED229916BF00F3DBC8 /* NSError+LocalizedDescription.h in Headers */,
+				8F9785EB229916BF00F3DBC8 /* OAHTTP.h in Headers */,
 				8F9785DD2299141100F3DBC8 /* IOSOpenApi.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,9 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9785EE229916BF00F3DBC8 /* NSError+LocalizedDescription.m in Sources */,
 				8F9785F4229919A100F3DBC8 /* OAGetRecordsModel.m in Sources */,
-				8F9785F0229916BF00F3DBC8 /* HTTP.m in Sources */,
+				8F9785F0229916BF00F3DBC8 /* OAHTTP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

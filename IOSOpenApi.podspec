@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "IOSOpenApi"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "IOSOpenApi"
   s.homepage     = "https://github.com/reference/IOSOpenApi"
   s.description  = <<-DESC
@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = ["IOSOpenApi/*.{h,m}","HTTP/*.{h,m}","Model/*.{h,m}"]
 
-  s.dependency "BDToolKit"
   s.dependency "AFNetworking"
   s.dependency "ZXToolbox"
   s.dependency "YYModel"
   s.dependency "StandardHTTPResponse"
+  s.dependency "NSError+LocolizedDescription"
 end

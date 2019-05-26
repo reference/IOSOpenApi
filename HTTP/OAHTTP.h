@@ -28,7 +28,7 @@
 
 #define HOST @"https://openapi.loex.io"
 
-@interface HTTP : NSObject
+@interface OAHTTP : NSObject
 
 + (void)requestWithURL:(NSString *)url
                 params:(NSDictionary *)params

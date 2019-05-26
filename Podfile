@@ -5,10 +5,10 @@ target 'IOSOpenApi' do
   use_frameworks!
 
   pod 'StandardPageSize'
-  pod 'BDToolKit'
   pod 'AFNetworking'
   pod 'ZXToolbox'
   pod 'YYModel'
   pod 'StandardHTTPResponse'
+  pod 'NSError+LocolizedDescription'
 end
 

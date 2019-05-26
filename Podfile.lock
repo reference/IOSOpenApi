@@ -14,43 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - BDToolKit (1.3.1):
-    - BDToolKit/BDButton (= 1.3.1)
-    - BDToolKit/BDCollectionViewCell (= 1.3.1)
-    - BDToolKit/BDCollectionViewController (= 1.3.1)
-    - BDToolKit/BDImageView (= 1.3.1)
-    - BDToolKit/BDLabel (= 1.3.1)
-    - BDToolKit/BDSegmentView (= 1.3.1)
-    - BDToolKit/BDTableViewCell (= 1.3.1)
-    - BDToolKit/BDTableViewController (= 1.3.1)
-    - BDToolKit/BDView (= 1.3.1)
-    - BDToolKit/BDViewController (= 1.3.1)
-    - "BDToolKit/NSArray+BDUIKIT (= 1.3.1)"
-    - "BDToolKit/NSString+BD (= 1.3.1)"
-    - "BDToolKit/NSURLProtocol+WKWebVIew (= 1.3.1)"
-    - "BDToolKit/UILabel+BD (= 1.3.1)"
-    - "BDToolKit/UITextField+BD (= 1.3.1)"
-    - "BDToolKit/UITextView+BD (= 1.3.1)"
-    - "BDToolKit/UIView+BD (= 1.3.1)"
-    - "BDToolKit/UIView+BDCDS (= 1.3.1)"
-  - BDToolKit/BDButton (1.3.1)
-  - BDToolKit/BDCollectionViewCell (1.3.1)
-  - BDToolKit/BDCollectionViewController (1.3.1)
-  - BDToolKit/BDImageView (1.3.1)
-  - BDToolKit/BDLabel (1.3.1)
-  - BDToolKit/BDSegmentView (1.3.1)
-  - BDToolKit/BDTableViewCell (1.3.1)
-  - BDToolKit/BDTableViewController (1.3.1)
-  - BDToolKit/BDView (1.3.1)
-  - BDToolKit/BDViewController (1.3.1)
-  - "BDToolKit/NSArray+BDUIKIT (1.3.1)"
-  - "BDToolKit/NSString+BD (1.3.1)"
-  - "BDToolKit/NSURLProtocol+WKWebVIew (1.3.1)"
-  - "BDToolKit/UILabel+BD (1.3.1)"
-  - "BDToolKit/UITextField+BD (1.3.1)"
-  - "BDToolKit/UITextView+BD (1.3.1)"
-  - "BDToolKit/UIView+BD (1.3.1)"
-  - "BDToolKit/UIView+BDCDS (1.3.1)"
+  - "NSError+LocolizedDescription (0.0.3)"
   - StandardHTTPResponse (0.0.1)
   - StandardPageSize (0.0.1)
   - YYModel (1.0.4)
@@ -187,7 +151,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - BDToolKit
+  - "NSError+LocolizedDescription"
   - StandardHTTPResponse
   - StandardPageSize
   - YYModel
@@ -196,7 +160,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - BDToolKit
+    - "NSError+LocolizedDescription"
     - StandardHTTPResponse
     - StandardPageSize
     - YYModel
@@ -204,12 +168,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  BDToolKit: 83cb90107ff4de50bda9c8946b3391e430982f71
+  "NSError+LocolizedDescription": f32f457e1a2f379ee745fdabf3d107bf1afb0c12
   StandardHTTPResponse: 63567c028c163f28d0e08c6147247df377404713
   StandardPageSize: f79d7b8116415631b8836e7762657cadbd4448b2
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZXToolbox: 3a9bf4c7efc99ad501ab1960051504bfa9260d89
 
-PODFILE CHECKSUM: 5011ef673d10e43e0efbb700d4a617849ac65c03
+PODFILE CHECKSUM: 70316f6d708c1555e074e65f8690ef93a31b4875
 
 COCOAPODS: 1.6.1

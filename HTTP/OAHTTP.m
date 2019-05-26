@@ -23,12 +23,12 @@
  */
 
 
-#import "HTTP.h"
+#import "OAHTTP.h"
 #import <YYModel/YYModel.h>
 #import <AFNetworking/AFNetworking.h>
-#import <BDToolKit/BDToolKit.h>
+#import <NSError+LocolizedDescription.h>
 
-@implementation HTTP
+@implementation OAHTTP
 
 + (void)requestWithURL:(NSString *)url
                 params:(NSDictionary *)params
@@ -36,7 +36,7 @@
          responseClass:(Class)responseClass
      responseDataClass:(NSDictionary *)responseDataClass
             completion:(void(^)(id responseObject, NSError *error))completion {
-    [HTTP requestWithURL:url params:params body:body completion:^(id responseObject, NSError *error) {
+    [OAHTTP requestWithURL:url params:params body:body completion:^(id responseObject, NSError *error) {
         id response = responseObject;
         if (response && responseClass) {
             if ([response isKindOfClass:[NSArray class]]) {
@@ -158,24 +158,24 @@
 //from mto
 
 + (void)requestWithPath:(NSString *)path responseDataClass:(Class)responseDataClass completion:(void(^)(StandardHTTPResponse *response, NSError *error))completion {
-    [HTTP requestWithPath:path body:nil responseDataClass:responseDataClass completion:completion];
+    [OAHTTP requestWithPath:path body:nil responseDataClass:responseDataClass completion:completion];
 }
 
 + (void)requestWithPath:(NSString *)path body:(id)body responseDataClass:(Class)responseDataClass completion:(void(^)(StandardHTTPResponse *response, NSError *error))completion {
-    [HTTP requestWithPath:path params:nil body:body responseDataClass:responseDataClass completion:completion];
+    [OAHTTP requestWithPath:path params:nil body:body responseDataClass:responseDataClass completion:completion];
 }
 
 + (void)requestWithPath:(NSString *)path params:(NSDictionary *)params responseDataClass:(Class)responseDataClass completion:(void(^)(StandardHTTPResponse *response, NSError *error))completion {
-    [HTTP requestWithPath:path params:params body:nil responseDataClass:responseDataClass completion:completion];
+    [OAHTTP requestWithPath:path params:params body:nil responseDataClass:responseDataClass completion:completion];
 }
 
 + (void)requestWithPath:(NSString *)path params:(NSDictionary *)params body:(id)body responseDataClass:(Class)responseDataClass completion:(void(^)(StandardHTTPResponse *response, NSError *error))completion {
     NSString *url = [NSString stringWithFormat:@"%@%@", HOST, path];
-    [HTTP requestWithURL:url params:params body:body responseDataClass:responseDataClass completion:completion];
+    [OAHTTP requestWithURL:url params:params body:body responseDataClass:responseDataClass completion:completion];
 }
 
 + (void)requestWithURL:(NSString *)url params:(NSDictionary *)params body:(id)body responseDataClass:(Class)responseDataClass completion:(void(^)(StandardHTTPResponse *response, NSError *error))completion {
-    [HTTP requestWithURL:url params:params body:body responseClass:[StandardHTTPResponse class] completion:^(id responseObject, NSError *error) {
+    [OAHTTP requestWithURL:url params:params body:body responseClass:[StandardHTTPResponse class] completion:^(id responseObject, NSError *error) {
         if ([responseObject isKindOfClass:[StandardHTTPResponse class]]) {
             StandardHTTPResponse *response = responseObject;
             if (response.data && responseDataClass) {

@@ -24,7 +24,7 @@
 
 #import "OAGetRecordsModel.h"
 #import <StandardHTTPResponse/StandardHTTPResponse.h>
-#import "HTTP.h"
+#import "OAHTTP.h"
 
 @implementation OAGetRecordsModel
 
@@ -33,7 +33,7 @@
                completion:(void(^)(NSArray<NSArray<NSNumber *> *> *records, NSError *error))completion
 {
     NSString *path = @"/open/api/get_records";
-    [HTTP requestWithPath:path params:@{@"symbol":symbol,@"period":@(period)} responseDataClass:nil completion:^(StandardHTTPResponse *response, NSError *error) {
+    [OAHTTP requestWithPath:path params:@{@"symbol":symbol,@"period":@(period)} responseDataClass:nil completion:^(StandardHTTPResponse *response, NSError *error) {
         if (completion) {
             completion(response.data,error);
         }
