@@ -9,6 +9,5 @@ target 'IOSOpenApi' do
   pod 'ZXToolbox'
   pod 'YYModel'
   pod 'StandardHTTPResponse'
-  pod 'NSError+LocolizedDescription'
 end
 

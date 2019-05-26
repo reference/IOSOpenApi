@@ -26,7 +26,6 @@
 #import "OAHTTP.h"
 #import <YYModel/YYModel.h>
 #import <AFNetworking/AFNetworking.h>
-#import <NSError+LocolizedDescription.h>
 
 @implementation OAHTTP
 
